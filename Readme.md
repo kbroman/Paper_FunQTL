@@ -6,6 +6,8 @@ A PDF is available at [arXiv.org](http://arXiv.org):
 [Abstract](http://arxiv.org/abs/1403.3048) |
 [PDF](http://arxiv.org/pdf/1403.3048v2.pdf)
 
+Also see the [funqtl](http://github.com/ikwak2/funqtl) package, for [R](http://www.r-project.org).
+
 ---
 
 Here's a description of the files:
