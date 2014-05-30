@@ -1,0 +1,8 @@
+Figs/
+R/*.Rout
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.pdf

@@ -1,0 +1,221 @@
+\documentclass[letterpaper,twoside]{article}
+
+\usepackage{caption}
+
+\usepackage[authoryear]{natbib}
+\usepackage{times}
+\usepackage{amsmath,amsfonts}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{color}
+\usepackage{url}
+\usepackage[paper=letterpaper]{geometry}
+\usepackage{fontspec}
+\setmainfont[Mapping=text-tex]{Calibri}
+
+% revise margins
+\setlength{\headheight}{0.25in}
+\setlength{\headsep}{-0.25in}
+\setlength{\topmargin}{0.0in}
+\setlength{\textheight}{9in}
+\setlength{\footskip}{0.5in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\evensidemargin}{-0.25in}
+\setlength{\textwidth}{7.0in}
+\setlength{\rightskip}{0pt plus 1fil} % makes ragged right
+
+% headings
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyfoot{}
+\fancyfoot[C]{I.-Y.\ Kwak \emph{et al.}}
+\fancyfoot[RO, LE]{\textbf{\thepage\ SI}}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\captionsetup[figure]{labelsep=quad}
+\captionsetup[table]{labelsep=quad}
+
+% make figures S1, S2, ...
+\renewcommand{\thefigure}{\textbf{S\arabic{figure}}}
+\renewcommand{\figurename}{\textbf{Figure}}
+
+% make tables S1, S2, ...
+\renewcommand{\thetable}{\textbf{S\arabic{table}}}
+\renewcommand{\tablename}{\textbf{Table}}
+
+\begin{document}
+
+\vspace*{8mm}
+\begin{center}
+
+\textbf{\Large A simple regression-based method to map \\[6pt]
+  quantitative trait loci underlying function-valued
+  phenotypes}
+
+\bigskip \bigskip \bigskip \bigskip
+
+\textbf{\Large SUPPLEMENT}
+
+\bigskip \bigskip
+\bigskip \bigskip
+
+
+{\large Il-Youp Kwak$^*$, Candace R. Moore$^\dagger$, Edgar
+  P. Spalding$^\dagger$, Karl W. Broman$^{\ddagger}$}
+
+\bigskip \bigskip
+
+Departments of $^*$Statistics, $^\dagger$Botany, and $^\ddagger$Biostatistics and Medical
+Informatics, \\
+University of Wisconsin--Madison, Madison, Wisconsin 53706
+\end{center}
+
+
+\vfill
+
+\hfill
+{\footnotesize 15 May 2014}
+
+
+\clearpage
+
+\begin{figure}[p]
+\centerline{\includegraphics{Figs/figS1.eps}}
+
+\caption{Genetic map of typed genetic markers (A)
+     and function-valued phenotypes for five randomly selected
+     Arabidopsis RIL (B), for data from Edgar Spalding and colleagues.}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[p]
+\centerline{\includegraphics{Figs/figS2.eps}}
+\vspace{1cm}
+
+\caption{Average (A) and standard deviation (B) of the root tip angle phenotype at
+  each individual time point, and the correlations between time points (C).}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics{Figs/figS3.eps}
+\vspace{1cm}
+ \caption{Growth curves for the three QTL genotypes in the single-QTL
+   simulation study.}
+\end{center}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics{Figs/figS4.eps}
+\vspace{1cm}
+ \caption{The heritability for each time point in the single-QTL
+   simulation study, for the three assumed variance structures and the
+   chosen values for the $c$ parameter.}
+\end{center}
+\end{figure}
+
+\newpage
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics{Figs/figS5.eps}
+\vspace{1cm}
+ \caption{Root Mean Square Error (RMSE) of the estimated
+   QTL position as a function of the percent variance explained by a
+   single QTL.  The first column is for $n=100$, the second column is for $n=200$ and the third column is
+   for $n=400$. The three rows correspond to the covariance structure
+   (autocorrelated, equicorrelated, and unstructured).  In each panel,
+   SLOD is in red, MLOD is in blue, EE(Wald) is in brown, EE(Residual)
+   is in green, and parametric is in black.}
+\end{center}
+\end{figure}
+
+\newpage
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics{Figs/figS6.eps}
+\vspace{1cm}
+ \caption{Root Mean Square Error (RMSE) of the estimated QTL position
+   as a function of the percent variance explained by a single QTL,
+   with additional noise added to the phenotypes.  The first column
+   has no additional noise; the second and third columns have
+   independent normally distributed noise added at each time point,
+   with standard deviation 1 and 2, respectively. The three rows
+   correspond to the covariance structure (autocorrelated,
+   equicorrelated, and unstructured). In each panel, SLOD is in red,
+   MLOD is in blue, EE(Wald) is in brown, EE(Residual) is in green,
+   and parametric is in black. The percent variance explained by the
+   QTL on the x-axis refers, in each case, to the variance explained
+   in the case of no added noise.}
+\end{center}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics{Figs/figS7.eps}
+\vspace{1cm}
+ \caption{The underlying true baseline function (A) and
+   QTL effect curves (B, C and D) for the multiple-QTL simulations.}
+\end{center}
+\end{figure}
+
+
+
+
+\clearpage
+
+\begin{table}[p]
+
+\centering
+  \caption{5\% significance thresholds for the data from Moore \emph{et
+    al.} 2013, \\ based on a permutation test with 1000 replicates.}
+
+\bigskip
+
+    \begin{tabular}{l@{\hspace{6mm}}cr@{.}lc}
+      \hline
+      \textbf{Method} & \multicolumn{4}{c}{\textbf{Threshold}} \\
+      \hline
+      SLOD         &\hspace{1mm} & 1&85   &\hspace{1mm} \\
+      MLOD         && 3&32   &\\
+      EE(Wald)     && 5&72   &\\
+      EE(Residual) && 0&0559 &\\
+      \hline
+    \end{tabular}
+\end{table}
+
+
+\clearpage
+
+
+\begin{table}[p]
+\centering
+  \caption{The unstructured covariance matrix used in the single-QTL simulations.}
+\begin{equation*}
+  \Sigma = \begin{pmatrix}
+0.72 & 0.39 & 0.45 & 0.48 & 0.50 & 0.53 & 0.60 & 0.64 & 0.68 & 0.68 \\
+0.39 & 1.06 & 1.61 & 1.60 & 1.50 & 1.48 & 1.55 & 1.47 & 1.35 & 1.29 \\
+0.45 & 1.61 & 3.29 & 3.29 & 3.17 & 3.09 & 3.19 & 3.04 & 2.78 & 2.53 \\
+0.48 & 1.60 & 3.29 & 3.98 & 4.07 & 4.01 & 4.17 & 4.18 & 4.00 & 3.69 \\
+0.50 & 1.50 & 3.17 & 4.07 & 4.70 & 4.68 & 4.66 & 4.78 & 4.70 & 4.36 \\
+0.53 & 1.48 & 3.09 & 4.07 & 4.68 & 5.56 & 6.23 & 6.87 & 7.11 & 6.92 \\
+0.60 & 1.55 & 3.19 & 4.17 & 4.66 & 6.23 & 8.59 & 10.16 & 10.80 & 10.70 \\
+0.64 & 1.47 & 3.04 & 4.18 & 4.78 & 6.87 & 10.16 & 12.74 & 13.80 & 13.80 \\
+0.68 & 1.35 & 2.78 & 4.00 & 4.70 & 7.11 & 10.80 & 13.80 & 15.33 & 15.35 \\
+0.68 & 1.29 & 2.53 & 3.69 & 4.36 & 6.92 & 10.70 & 13.80 & 15.35 & 15.77 \\
+  \end{pmatrix}
+\end{equation*}
+\end{table}
+
+\end{document}
