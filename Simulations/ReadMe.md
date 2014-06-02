@@ -11,9 +11,9 @@
 - [fda](http://cran.r-project.org/web/packages/fda/)
 - [grofit](http://cran.r-project.org/web/packages/grofit/)
 
-All of the packages except funqtl] can be downloaded from [CRAN](http://cran.r-project.org).
+All of the packages except funqtl can be downloaded from [CRAN](http://cran.r-project.org).
 
-To install [funqtl](https://github.com/ikwak2/funqtl) from github, do
+To install [funqtl](https://github.com/ikwak2/funqtl) from GitHub, do
 the following:
 
     install.packages("devtools")
