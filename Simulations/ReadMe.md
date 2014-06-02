@@ -20,7 +20,7 @@ the following:
     library(devtools)
     install_github("ikwak2/funqtl")
 
-## R Code
+### R Code
 
 
 
