@@ -22,50 +22,35 @@ the following:
 
 ## R Code
 
-comparison_Yap.R, fr.R, logistic.R :
-```S
-   Codes for Xiong et all(2011)'s method.
-   Downloaded from "http://www.epibiostat.ucsf.edu/biostat/sen/functionalMapping/"
-```
-forsim.R :
-```S
-   This file contains some functions that needed for the 1st simulation.
-```
 
-simfile.R :
-```S
-   simulation file for the 1st simulation. each line takes a long time.
-   The result of this big simulation saved as "outpoutresults.RData"
-```
 
-simul1.R :
-```S
-   This file produce powers, rmses of simulated data set.
-   The results are saved in "../RData/newrmsepower.RData" and "../RData/newrmsepowermore.RData".
-   ../R/fig5.R , ../R/fig6.R ../R/figS5.R and ../R/figS6.R functins produce  Fig5, Fig6, FigS5 and FigS6.
-```
+- [`comparison_Yap.R`](comparison_Yap.R), [`fr.R`](fr.R),
+  [`logistic.R`](logistic.R) &mdash; Code for [Xiong et al (2011)]'s method, downloaded from [here](http://www.epibiostat.ucsf.edu/biostat/sen/functionalMapping/)
+   
+- [`forsim.R`](forsim.R) &mdash; Functions that needed for the 1st simulation.
 
-estherit.R :
-```S
-   Function to get heritability scores.
-   Result saved in "../RData/herit.RData"
-   ../R/figS4 produce FigS4.
-```
+- [`simfile.R`](simfile.R) &mdash; Simulation file for the 1st simulation. Each line takes a long time.
+   The result of this big simulation saved as `outputresults.RData`.
 
-forsim2.R :
-```S
-   This file contains some functions that needed for the 2nd simulation.
-```
+- [`simul1.R`](simul1.R) &mdash; Calculates power and RMSEs for
+   simulated results in the first data set. The results are saved in
+   [`../RData/newrmsepower.RData`](https://github.com/kbroman/Paper_FunQTL/blob/master/RDatas/newrmsepower.RData)
+   and
+   [`../RData/newrmsepowermore.RData`](https://github.com/kbroman/Paper_FunQTL/blob/master/RDatas/newrmsepowermore.RData).
+   Used in Figures 5, 6, S5, and S6.
 
-cansim.R :
-```S
-   Codes for 2nd simulation.
-   Threshold and stepwiseqtl search.
-   The result saved in "QTLs.RData"
-```
 
-simul2res.R :
-```S
+- [`estherit.R`](estherit.R) &mdash; 
+   Function to get heritability values. Result saved in
+   [`../RData/herit.RData`](https://github.com/kbroman/Paper_FunQTL/blob/master/RDatas/herit.RData). Used
+   in Figure S4.
+
+- [`forsim2.R`](forsim2.R) &mdash;
+   Some functions needed for the 2nd simulation.
+
+- [`cansim.R`](cansim.R) &mdash;
+   Code for the 2nd simulation (threshold and stepwiseqtl search).
+   The result is saved in [`QTLs.RData`](QTLs.RData)
+
+- [`simul2res.R`](simul2res.R) &mdash;
    Calculation for Table 1
-```
-
