@@ -30,7 +30,7 @@ the following:
 - [`forsim.R`](forsim.R) &mdash; Functions that needed for the 1st simulation.
 
 - [`simfile.R`](simfile.R) &mdash; Simulation file for the 1st simulation. Each line takes a long time.
-   The result of this big simulation saved as `outputresults.RData`.
+   The result of this big simulation saved as [`outpoutresults.RData`](outpoutresults.RData).
 
 - [`simul1.R`](simul1.R) &mdash; Calculates power and RMSEs for
    simulated results in the first data set. The results are saved in
