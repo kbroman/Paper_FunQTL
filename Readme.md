@@ -1,10 +1,11 @@
 ## A simple regression-based method to map quantitative trait loci underlying function-valued phenotypes
 
-This repository contains the source for a manuscript to appear in [Genetics](http://www.genetics.org).
-
-A PDF is available at [arXiv.org](http://arXiv.org):
-[Abstract](http://arxiv.org/abs/1403.3048) |
-[PDF](http://arxiv.org/pdf/1403.3048v2.pdf)
+This repository contains the source for Kwak I-L, Moore CR, Spalding
+EP, Broman KW (2014) A simple regression-based method to map
+quantitative trait loci underlying function-valued
+phenotypes. Genetics 197:1409-1416. <br>
+[PubMed](http://www.ncbi.nlm.nih.gov/pubmed/24931408) |
+[PDF](http://www.genetics.org/content/197/4/1409.full.pdf)
 
 Also see the [funqtl](http://github.com/ikwak2/funqtl) package, for [R](http://www.r-project.org).
 
